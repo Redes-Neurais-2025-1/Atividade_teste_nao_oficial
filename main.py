@@ -22,8 +22,8 @@ def main():
     y = y1 #ou y2, ou y3
 
     # Hiperparâmetros
-    theta_inicial = [0, 0]
-    learning_rate = 0.01
+    theta_inicial = 
+    learning_rate = 
     num_epochs = 100
     tipo_gradiente = 'batch'  # 'batch', 'estocastico', 'mini-batch'
     batch_size = 10  # usado apenas no mini-batch

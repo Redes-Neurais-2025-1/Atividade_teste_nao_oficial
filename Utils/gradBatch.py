@@ -7,8 +7,8 @@ def calcular_custo(theta_values, features, targets, samples):
     sigma = 0
     
     for i in range(samples):
-        pred = theta_0 + theta_1 * features[i]
-        erro = pred - targets[i]
+        pred = 
+        erro = 
         sigma += erro**2
 
     return (1/(2*samples)) * sigma
@@ -21,13 +21,13 @@ def calcular_gradiente(theta_values, features, targets, samples):
     sigma_1 = 0
 
     for i in range(samples):
-        pred = theta_0 + theta_1 * features[i]
-        erro = pred - targets[i]
+        pred = 
+        erro = 
         sigma_0 += erro
         sigma_1 += erro * features[i]
         
-    grad_theta_0 = (1/samples) * sigma_0
-    grad_theta_1 = (1/samples) * sigma_1
+    grad_theta_0 = 
+    grad_theta_1 = 
 
     return [grad_theta_0, grad_theta_1]
 
